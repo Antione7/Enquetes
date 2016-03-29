@@ -1,0 +1,145 @@
+input[type=text], textarea[name=description]{
+    width:100%;
+}
+
+body{
+	background-image: url(../img/desk.jpg); /*Ancienne couleur #c9e2b3*/
+	font-size: 14px;
+	font-family: Verdana, sans-serif;
+}
+
+.container{
+    background-color: silver;
+    margin: 0 auto;
+    padding: 0 3%;
+    width:65%;
+}
+
+h1{
+	background-color: #E8D5B2;
+    padding: 0.2em 0;
+    border-radius: 0.2em;
+}
+
+h3{
+    margin-top: 0;
+}
+
+.message {
+    cursor: pointer;
+}
+
+/*page_membre*/
+
+#my_account{
+	display:none;
+    height: 20em;
+}
+
+.menu-member{
+	margin-bottom: 1em;
+}
+
+.menu-member > span{
+	padding-top: 1.1em;
+}
+
+.border-enquete{
+	
+	border-radius: 0.5em;
+	margin-bottom: 1em;
+	padding: 1em;
+	background-color: #F3F781;
+}
+
+.bouton-enquete{
+	text-align: center;
+}
+
+.twentytwo {
+    width: 22%;
+    text-align: center;
+}
+
+/*fin page_membre*/
+
+/*page_resultats*/
+.border-question{
+	background-color: #F3F781;
+	border-radius: 0.5em;
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.border-question  p{
+	margin-left: 2em;
+}
+
+/*fin page_resultats*/
+
+/*page_create*/
+
+.block_question, .choice{
+	background-color: #F3F781;
+	border-radius: 0.5em;
+	margin:0 auto;
+    margin-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+    padding-top: 1em;
+	width: 100%;
+}
+
+.block_qcm{
+	background-color: silver;
+	border-radius: 0.5em;
+	margin:0 auto;
+    margin-top: 1em;
+	width: 100%;
+}
+
+#bottombar_create {
+    padding-left: 0;
+}
+
+#bottombar_create > li {
+    display: inline-block;
+    list-style: none;
+}
+
+.remove_question, .delete_choice {
+    height: 1.6em;
+    width: 1.6em;
+    line-height: 1.6em;
+    margin: 0;
+    padding: 0;
+}
+
+.remove_question > span, .delete_choice > span {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    display: block;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+
+/*fin page_create*/
+
+/*page_reponse*/
+
+.radio_reponse {
+    margin-left: 1.5em;
+}
+
+/*fin page_reponse*/
+
+@media screen and (max-width: 1200px) {
+    .container{
+        width:80%;
+    }
+}
